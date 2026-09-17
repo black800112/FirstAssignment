@@ -27,3 +27,29 @@
 5.點擊 Finish 將專案匯入工作區。
 
 6.在專案總管中找到 src/com/DiscountCalcUI.java，點擊右鍵並選擇 Run As > Java Application 即可執行。 
+
+
+# DiscountCalc
+
+這是一個基於 Java 開發的桌面計算應用程式，旨在幫助使用者更有效率地計算折扣價格。本專案為 Eclipse IDE 專案，採用了 Java 圖形使用者介面（GUI）進行設計。
+
+## 專案結構
+
+```text
+DiscountCalc/
+├── .classpath              # Eclipse 類別路徑設定檔
+├── .project                # Eclipse 專案設定檔
+├── .settings/              # Eclipse 工作區設定
+│   ├── org.eclipse.core.resources.prefs
+│   └── org.eclipse.jdt.core.prefs
+├── bin/                    # 編譯後的位元組碼檔案 (.class)
+│   └── com/
+│       ├── DiscountCalc.class
+│       ├── DiscountCalc1.class
+│       ├── DiscountCalcUI.class
+│       └── DiscountCalcUI$*.class (UI 事件處理相關內部類別)
+└── src/                    # 原始程式碼目錄
+    └── com/
+        ├── DiscountCalc.java
+        ├── DiscountCalc1.java
+        └── DiscountCalcUI.java
